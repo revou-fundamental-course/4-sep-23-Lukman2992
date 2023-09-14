@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,900;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mohamad Lukman</title>
+  </head>
+  <body>
+    <header>
+      <h1>PERHITUNGAN LUAS DAN KELILING PERSEGI</h1>
+    </header>
+    <article>
+      <h2>Apa itu Persegi?</h2>
+      <p>
+        Persegi adalah bentuk geometri dengan keempat sisi yang sama panjang dan
+        keempat sudut yang sama besar (90 derajat).
+        <ul> Rumus Persegi</ul>
+        <li>Keliling Persegi => Keliling = 4 x Sisi Persegi</li>
+        <li>Luas Persegi => Luas = Sisi Persegi x Sisi Persegi</li>        
+      </p>
+    </article>
+    <div class="isi">
+      <div class="kotak"></div>
+      <section>
+        <div class="labels">
+          <label for="hitung">Panjang Sisi Persegi:</label>
+          <input type="number" id="hitung" placeholder="Sisi Persegi" />
+          <label for="luasPersegi">Luas Persegi:</label>
+          <input
+            type="number"
+            id="luasPersegi"
+            placeholder="Hasil Luas"
+            readonly
+          />
+          <label for="kelilingPersegi">Keliling Persegi:</label>
+          <input
+            type="number"
+            id="kelilingPersegi"
+            placeholder="Hasil Keliling"
+            readonly
+          />
+        </div>
+      </section>
+      <button onclick="hasil()">Hitung</button>
+      <button onclick="hapus()">Reset</button>
+    </div>
+    <footer>
+      <p>&copy; 2023 Mohamad Lukman</p>
+    </footer>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
